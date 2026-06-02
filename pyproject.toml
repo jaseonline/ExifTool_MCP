@@ -22,7 +22,7 @@ classifiers = [
 dependencies = ["mcp>=1.15.0"]
 
 [project.scripts]
-exiftool-mcp = "exiftool_mcp.server:main"
+exiftool-mcp = "exiftool_mcp.server:run"
 
 [project.urls]
 Homepage = "https://github.com/joshmsimpson/exiftool_mcp"
