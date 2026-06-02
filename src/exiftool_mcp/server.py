@@ -18,6 +18,9 @@ logger = logging.getLogger("exiftool-mcp")
 # Initialize MCP server
 app = Server("exiftool-mcp")
 
+def run():
+    """Synchronous entry point for the MCP server."""
+    asyncio.run(main())
 
 def check_exiftool_installed() -> bool:
     """Check if exiftool is installed and available in PATH."""
